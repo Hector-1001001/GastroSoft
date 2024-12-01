@@ -1,0 +1,148 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+  }
+  
+  /* Encabezado */
+  .header {
+    background-color: #f4a261;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #264653;
+  }
+  
+  /* Secciones */
+
+  
+  .about {
+    padding: 50px 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #e76f51;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  p, ul {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+  }
+  
+  /* Colores de Fondo para Secciones */
+
+  .information{
+
+    display: flex;
+    gap: 3em;
+
+  }
+
+  .intro {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mission, .vision {
+    margin-top: 30px;
+    background-color: #fefae0;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .mission, .vision, .container{
+
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+
+  }
+  
+  .values {
+    margin-top: 30px;
+    background-color: #e9c46a;
+    padding: 90px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  
+  /* Pie de Página */
+  .contacto {
+    text-align: center;
+    padding: 2rem 0;
+    background: #f4f4f4;
+  }
+  
+  .contacto .social-links a {
+    display: inline-block;
+    margin: 0.5rem;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .contacto .social-links a:hover {
+    color: #e76f51;
+  }
+  .footer {
+    background-color: #264653;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+  }
+  
